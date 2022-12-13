@@ -34,14 +34,14 @@ class viewTwo: UIViewController {
     func declareWinner(ourChoice: Int, cpuChoice: Int){
         
         if receivingInteger == 0 && intOnethroughThree == 1 {
-            loser1.text = "Loser"
+            loser1.text = "You Lose"
         }
       
         else if ourChoice == 1 && cpuChoice == 2 {
-            loser1.text = "Loser" }
+            loser1.text = "You Lose" }
        
        else if ourChoice == 2 && cpuChoice == 0 {
-            loser1.text = "Loser"}
+            loser1.text = "You Lose"}
         
        else if ourChoice == 0 && cpuChoice == 0 {
             loser1.text = "Tie"
@@ -53,13 +53,13 @@ class viewTwo: UIViewController {
             loser1.text = "Tie"
         }
        else if ourChoice == 0 && cpuChoice == 2 {
-            loser1.text = "Winner"
+            loser1.text = "You Win"
         }
        else if ourChoice == 1 && cpuChoice == 0 {
-            loser1.text = "Winner"
+            loser1.text = "You Win"
         }
         else if ourChoice == 2 && cpuChoice == 1 {
-            loser1.text = "Winner"
+            loser1.text = "You Win"
             
         }
         
@@ -97,4 +97,4 @@ class viewTwo: UIViewController {
         
     }
 
-// for round swapping, it might work to create a counter and set all the objects in round 1 = to 0 for the counter, then have it set so when the loser text changes to the outcome have the counter value change to 1. All the objects in round 2 would be associated with the counter value 1. Repeat for the third round.
+

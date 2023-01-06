@@ -85,7 +85,18 @@ class viewTwo: UIViewController {
             computerImage1.image = UIImage(named:"scissors")
         }
         }
-        /*
+     
+    @IBOutlet weak var playerImageTwo: UIImageView!
+    
+    @IBOutlet weak var computerImageTwo: UIImageView!
+    
+    
+    @IBOutlet weak var playerImageThree: UIImageView!
+    
+    @IBOutlet weak var computerImageThree: UIImageView!
+    
+    
+    /*
          // MARK: - Navigation
          
          // In a storyboard-based application, you will often want to do a little preparation before navigation
